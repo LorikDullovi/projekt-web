@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+body{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    top: 0;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+}
+.logopage{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.table{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.account{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+header.header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom-style: groove;
+}
+.logoimg{
+    height:100px;
+
+}
+
+.headerul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.headerul li{
+    margin: 0 10px;
+    font-size: 20px;
+}
+.headerul {
+    color: white;
+}
+.headerul a{
+    text-decoration: none;
+    color: black;;
+}
+.loginimg{
+    width: 30px;
+    height: 20px;
+}
+.loginbutton{
+    background-color: 6B8E23;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    border: 5px solid;
+    border: hidden;
+    margin-left: 50px;
+}
+.container button{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.loginlink{
+    text-decoration: none; 
+}
+.signupbutton{
+    background-color:white;
+    height: 37px;
+    font-size: 18px;
+    background-color: white;
+    color: white;
+    width: 90px;
+    border-radius: 7px;
+    border: hidden;
+}
+.signuplink{
+    text-decoration: none;
+   
+}
+
+.loginbutton:hover{
+    color: white;
+}
+.signupbutton:hover{
+    color: white;
+    background-color: white;
+
+}
+.menumain{
+    z-index: 0;
+}
+.menudiv{
+    background: B0C4DE;
+    color: black;
+    height: 600px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menuh1{
+    margin-top: 160px;
+    margin-left: 40px;
+    color: white;
+    font-size: 50px;
+}
+.presentationdiv{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-color: lightblue;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: width 1s, height 1s, background-color 1.5s, transform 1s;
+}
+.presentationdiv:hover {
+    background-color: lightblue;
+    width: 60px;
+    height: 60x;
+    transform: rotate(360deg);
+    border-color: lightblue;
+}
+.playbutton{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    border-width: 12px 0 12px 12px;
+    border-radius: 4px;
+    border-color: transparent transparent transparent white;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+.menup{
+    margin-left: 40px;
+    color: black;
+    margin-top: 35px;
+    font-size: 21px;
+}
+.seconddiv{
+    color:black;
+    width: 650px;
+    height: 100%;
+}
+.menudiv .bgimgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgimgdiv{
+    width: 60%;
+    height: 99%;
+}
+.bgimg{
+    width: 470px;
+    height: 430px;
+}
+.presentationp{
+    color: white;
+    font-size: 21px;
+    margin-left: 120px;
+    margin-top: -45px;
+}
+
+.contactform{
+    width: 99.8%;
+    height: 120vh;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+.info{
+    width: 50%;
+    height: 120vh;
+}
+.infoo{
+    width: 50%;
+    height: 120vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.infoo h2{
+    font-size: 40px;
+}
+.loc{
+    width: 50%;
+    height: 100vh;
+}
+.map{
+    width: 500px;
+    height: 250px;
+}
+.infoh2{
+    font-size: xx-large;
+    margin-top: 70px;
+}
+.location{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.streetimg{
+    width: 30px;
+    height: 30px;
+}
+.d1{
+    width: 20px;
+}
+.d2{
+    width: 420px; 
+    margin-left: 20px;
+
+}
+.streetp{
+    font-size: 17px;
+}
+.inboxdiv{
+    width: 100%px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.divimg{
+    width: 30px;
+    margin-left: -5px;
+}
+.emailtext{
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+.inboximg{
+    width: 40px;
+    height: 35px;
+}
+.linkemail{
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 15px;
+    color: black;
+}
+.linkemail:hover{
+    text-decoration: underline;
+}
+.pnumberdiv{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 6px;
+}
+.phoneimgdiv{
+    width: 35px;
+    margin-left: -5px;
+}
+.phonenumber{
+ 
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+
+}
+.phoneimg{
+    width: 35px;
+    height: 30px;
+    margin-left: 3px;
+}
+.socialm{
+    width: 99.8%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.design{
+    width: 30%;
+    height: 50px;
+}
+.medias{
+    width: 30%;
+    height: 50px;
+}
+.designp{
+    font-size: 17px;
+}
+.designlink{
+    margin-left: 10px;
+    color: greenyellow;
+}
+.links{
+    font-size: 17px;
+}
+.medias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.instagram{
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.facebook{
+    width: 33px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.google{
+    width: 46px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.github{
+    width: 40px;
+    height: 37px;
+    margin-left: 15px;
+}
+#logos:hover{
+    color: lightblue;
+}
+.footer{
+    z-index: 0;
+}
