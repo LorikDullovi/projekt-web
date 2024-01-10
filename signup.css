@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+body{
+    margin: 0;
+    padding: 0%;
+    background-image: url('photo/School.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 116vh;
+    font-family: 'Nunito', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.userlogo{
+    width: 65px;
+    height: 65px;
+    margin-top: 15px;
+    margin-left: 49%;
+}
+.container{
+    width: 500px;
+    height: 550px;
+    position: absolute;
+    top: 90px;
+    background-color: white;
+    box-shadow: 0px 0px 35px 1px black;
+    border-radius: 30px;
+    margin-left: 32%;
+}
+
+form input{
+    border-radius: 7px;
+    border: hidden;
+}
+input:focus{
+    border-color: 1px solid white;
+    box-shadow: 0px 0px 5px black;
+    outline: none;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    position: absolute;
+    left: 70px;
+    top: 35px;
+}
+.firstname{
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    padding-left: 20px;
+}
+.lastname{
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    top: 130px;
+    left: 240px;
+    padding-left: 20px;
+}
+.email{
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    padding-left: 20px;
+}
+.password{
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    top: 270px;
+    left: 70px;
+    padding-left: 20px;
+}
+.passwordconfirm{
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    top: 270px;
+    left: 240px;
+    padding-left: 20px;
+}
+.date{
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    top: 340px;
+    left: 70px;
+    padding-left: 20px;
+}
+.signuplink{
+    position: absolute;
+    top: 420px;
+    left: 70px;
+}
+.signup{
+    width: 300px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: hidden;
+    background-color: rgb(9, 122, 187);
+    color: white;
+}
+.signup:hover{
+    color: white;
+    background-color: rgb(42, 159, 236);
+}
+p{
+    position: absolute;
+    top: 470px;
+    left: 70px;   
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+p a:hover{
+    color: blue;
+}
+.Firstname{
+    position: absolute;
+    top: 173px;
+    font-size: small;
+    left: 70px;
+}
+.Lastname{
+    position: absolute;
+    top: 173px;
+    left: 240px;
+    font-size: small;
+}
+.Email{
+    position: absolute;
+    top: 245px;
+    left: 70px;
+    font-size: small;
+}
+.Fpassword{
+    position: absolute;
+    top: 313px;
+    left: 70px;
+    font-size: small;
+}
+.pwc{
+    position: absolute;
+    font-size: small;
+    left: 240px;
+    top: 313px;
+}
+.errorregister{
+    color: red;
+    margin-top: 390px;
+    margin-left: -160px;
+}
