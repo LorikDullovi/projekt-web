@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-image: url('photo/School.jpg');
+}
+.container{
+    display: flex;
+    height: 79.5vh;
+    justify-content: center;
+    align-items: center;    
+
+}
+.user-cont{
+    width: 40vw;
+    font-style: underline;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    font-size: 17px;
+    border-color: black;
+    background-color: white;
+    margin-top: 20px;
+}
+legend{
+    border: 2px solid;
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    border-style: inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    
+}
+.edit-cont{
+    border: 2px solid black;
+    height: 39vh;
+    width: 15vw;
+    margin-top: 20px;
+    border-radius: 22px;
+    border-style: groove;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    height: 50px;
+    width: 70%;
+    border-radius: 13px;
+    border: hidden;
+    color: white;
+    font-size: 18px;
+}
+#f{
+    background-color: teal;
+}
+.delete-form{
+    border: 2px solid black;
+    height: 39vh;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    background-color: white;
+    border-radius: 20px;
+}
+#s{
+    background-color:goldenrod;
+    width: 140px;
+}
+#user{
+    height: 35px;
+    border-color: black;
+    font-size: 17px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border-style: groove;
+}
